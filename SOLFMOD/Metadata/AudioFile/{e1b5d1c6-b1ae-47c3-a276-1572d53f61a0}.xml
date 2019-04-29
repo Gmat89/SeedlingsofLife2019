@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{e1b5d1c6-b1ae-47c3-a276-1572d53f61a0}">
+        <property name="assetPath">
+            <value>Menu_Forward_Weak_Long.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>1.224</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{bbf96001-6200-4665-8cb6-c770563e075f}</destination>
+        </relationship>
+    </object>
+</objects>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{b31e49f2-7b1b-4520-8394-efbcb89167ac}">
+        <property name="assetPath">
+            <value>Clouds - Trimmed.wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>165.88235416666666</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{bbf96001-6200-4665-8cb6-c770563e075f}</destination>
+        </relationship>
+    </object>
+</objects>

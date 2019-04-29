@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{74fda05b-bfcb-4dc2-afe3-f001868dd40e}">
+        <property name="assetPath">
+            <value>Steps_Twig_12.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>0.50666666666666671</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{bbf96001-6200-4665-8cb6-c770563e075f}</destination>
+        </relationship>
+    </object>
+</objects>

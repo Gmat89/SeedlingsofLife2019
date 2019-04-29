@@ -1,0 +1,144 @@
+fileFormatVersion: 2
+guid: bf97dfac0dfdb2b4f9911b9bb8e9671e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Beehive
+    100002: GumnutSeed
+    100004: Log
+    100006: Mushroom01
+    100008: Mushroom02
+    100010: MushroomGroup_01
+    100012: MushroomGroup_02
+    100014: OrchidSeed
+    100016: //RootNode
+    100018: TeaTreeSeed
+    100020: VineSeed
+    400000: Beehive
+    400002: GumnutSeed
+    400004: Log
+    400006: Mushroom01
+    400008: Mushroom02
+    400010: MushroomGroup_01
+    400012: MushroomGroup_02
+    400014: OrchidSeed
+    400016: //RootNode
+    400018: TeaTreeSeed
+    400020: VineSeed
+    2100000: Props_DG
+    2300000: Beehive
+    2300002: GumnutSeed
+    2300004: Log
+    2300006: Mushroom01
+    2300008: Mushroom02
+    2300010: MushroomGroup_01
+    2300012: MushroomGroup_02
+    2300014: OrchidSeed
+    2300016: TeaTreeSeed
+    2300018: VineSeed
+    3300000: Beehive
+    3300002: GumnutSeed
+    3300004: Log
+    3300006: Mushroom01
+    3300008: Mushroom02
+    3300010: MushroomGroup_01
+    3300012: MushroomGroup_02
+    3300014: OrchidSeed
+    3300016: TeaTreeSeed
+    3300018: VineSeed
+    4300000: Log
+    4300002: Beehive
+    4300004: GumnutSeed
+    4300006: OrchidSeed
+    4300008: TeaTreeSeed
+    4300010: VineSeed
+    4300012: Mushroom01
+    4300014: Mushroom02
+    4300016: MushroomGroup_01
+    4300018: MushroomGroup_02
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

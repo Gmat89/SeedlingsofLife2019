@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: d57823282d6295a488fcc532c9224eb0
+  - enabled: 1
+    path: Assets/Scenes/OverWorld.unity
+    guid: 54f74c3836621da44bd70eddc0b26006
+  - enabled: 1
+    path: Assets/Scenes/BattleLevelHalfDead.unity
+    guid: 12f44e57616766046a7f196d4a8c4936
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 338c1abde32f3a14c80613d63259030f
+  - enabled: 1
+    path: Assets/Scenes/BattleLevelDead.unity
+    guid: 23c954e825221904a9c1a615aea56562
+  - enabled: 1
+    path: Assets/Scenes/BattleLevelAlive.unity
+    guid: 80a2798351d5fc74f848721de0dae135
+  m_configObjects: {}
