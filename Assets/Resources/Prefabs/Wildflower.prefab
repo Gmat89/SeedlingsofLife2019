@@ -126,8 +126,9 @@ MonoBehaviour:
   - {fileID: 114964494905129484, guid: 71ebd01d2bc92e643977fa191a438763, type: 3}
   - {fileID: 114778834552849902, guid: 628d3fd7aa80ed94198dfbec3a43674e, type: 3}
   skillAttacks:
-  - {fileID: 5852710901141023687, guid: cfc71fbf58da6b04aab71663238c7621, type: 3}
-  - {fileID: 7256637332891672827, guid: 89ff45c015e3f8f46a1391c9610d3692, type: 3}
+  - {fileID: 4651779864596329434, guid: 5df9804579ed86e4eaac5075fe204c91, type: 3}
+  - {fileID: 4651779864596329434, guid: 449bc7ab4e2c8cf4db725da27e4bcb9c, type: 3}
+  - {fileID: 4651779864596329434, guid: f97f204ae3f55244f9d43b049651baf4, type: 3}
 --- !u!95 &6799820051178912189
 Animator:
   serializedVersion: 3
