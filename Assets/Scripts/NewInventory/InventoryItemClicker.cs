@@ -12,13 +12,21 @@ public class InventoryItemClicker : MonoBehaviour
 	//reference to the button
 	private Button _Button;
 
-	void Awake()
+    //reference to button audio
+    [FMODUnity.EventRef]
+    public string selectsound;
+    FMOD.Studio.EventInstance soundevent;
+
+
+    void Awake()
 	{
 		//Get the button component
 		_Button = GetComponent<Button>();
-	}
+        soundevent = FMODUnity.RuntimeManager.CreateInstance(selectsound);
 
-	void Update()
+    }
+
+    void Update()
 	{
 		//Check if the key is pressed down
 		if (Input.GetKeyDown(_Key))
@@ -57,8 +65,12 @@ public class InventoryItemClicker : MonoBehaviour
 	public void OnItemClicked()
 	{
 		InventoryItemBase item = AttachedItem;
-	
-		myInventory.UseItem(item);
+
+        //attach audio to item, and play on these conditions
+        FMODUnity.RuntimeManager.AttachInstanceToGameObject(soundevent, GetComponent<Transform>(), GetComponent<Rigidbody>());
+        soundevent.start();
+
+        myInventory.UseItem(item);
 	}
 
 }

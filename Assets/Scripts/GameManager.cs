@@ -7,10 +7,6 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    [FMODUnity.EventRef]
-    public string selectsound;
-    FMOD.Studio.EventInstance soundevent;
-
     //makes gamemanager a singleton because it is carried over every scene
     public static GameManager instance;
 
@@ -58,7 +54,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        soundevent = FMODUnity.RuntimeManager.CreateInstance(selectsound);
+        
         
     }
 
@@ -125,8 +121,7 @@ public class GameManager : MonoBehaviour
         }
         if (GameManager.instance.isWalking == false)
         {
-            FMODUnity.RuntimeManager.AttachInstanceToGameObject(soundevent, GetComponent<Transform>(), GetComponent<Rigidbody>());
-            soundevent.start();
+            
         }
 
     }

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17362905, g: 0.21706858, b: 0.2991834, a: 1}
+  m_IndirectSpecularColor: {r: 0.17362954, g: 0.21706925, b: 0.29918468, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1805,7 +1805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: event:/Clouds
+  Event: event:/Victory 1
   PlayEvent: 11
   StopEvent: 12
   CollisionTag: 
@@ -2007,7 +2007,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 0
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &262126211
@@ -4953,6 +4953,7 @@ GameObject:
   - component: {fileID: 803946001}
   - component: {fileID: 803946000}
   - component: {fileID: 803945999}
+  - component: {fileID: 803946003}
   m_Layer: 5
   m_Name: Pause Canvas
   m_TagString: Untagged
@@ -5040,6 +5041,29 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &803946003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 803945998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/Menu_Back_Weak_Short
+  PlayEvent: 11
+  StopEvent: 12
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1001 &809843409
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7728,7 +7752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ListenerNumber: 1
+  ListenerNumber: 0
 --- !u!114 &1192439246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7741,7 +7765,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: 'event:/Tribal '
+  Event: event:/Combat_Boss
   PlayEvent: 11
   StopEvent: 12
   CollisionTag: 
@@ -7750,8 +7774,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1210458781
 GameObject:
   m_ObjectHideFlags: 0
@@ -8924,11 +8948,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1142245259}
     m_Modifications:
-    - target: {fileID: 1892397521627035358, guid: 6d25bebef6bc80a4da66185f6eb66ca1,
-        type: 3}
-      propertyPath: m_Name
-      value: GrassClump
-      objectReference: {fileID: 0}
     - target: {fileID: 1892397521627458302, guid: 6d25bebef6bc80a4da66185f6eb66ca1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8983,6 +9002,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1892397521627035358, guid: 6d25bebef6bc80a4da66185f6eb66ca1,
+        type: 3}
+      propertyPath: m_Name
+      value: GrassClump
       objectReference: {fileID: 0}
     - target: {fileID: 1892397521625032720, guid: 6d25bebef6bc80a4da66185f6eb66ca1,
         type: 3}
@@ -9109,7 +9133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: event:/Ambience_Evil
+  Event: event:/Defeat 2
   PlayEvent: 11
   StopEvent: 12
   CollisionTag: 
@@ -9598,7 +9622,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: event:/Menu_Yes_Strong_Short
+  Event: event:/Menu_Back_Weak_Short
   PlayEvent: 0
   StopEvent: 0
   CollisionTag: 
@@ -10245,7 +10269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 854b97303b02ec8448f8ac4c996a86c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectsound: event:/ButtonPush
+  selectsound: event:/Menu_Back_Weak_Short
   PauseMenuHolder: {fileID: 803945998}
 --- !u!114 &1469143046
 MonoBehaviour:
@@ -10450,7 +10474,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 0
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1519119116
@@ -11751,12 +11775,12 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1733904782}
-        m_MethodName: 
+      - m_Target: {fileID: 1733904787}
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

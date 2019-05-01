@@ -10,9 +10,9 @@ using UnityEngine.EventSystems;
 public class PlayerController : MonoBehaviour
 {
     //Movement Sounds
-    //  [FMODUnity.EventRef]
-    // public string PickedUp;
-    // FMOD.Studio.EventInstance pickup;
+    [FMODUnity.EventRef]
+    public string PickedUp;
+    FMOD.Studio.EventInstance pickup;
 
     //Reference to the camera
     public Camera cam;
@@ -57,7 +57,7 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-        //  pickup = FMODUnity.RuntimeManager.CreateInstance(PickedUp);
+        pickup = FMODUnity.RuntimeManager.CreateInstance(PickedUp);
         //get the attached rigidbody component
         rb = GetComponent<Rigidbody>();
         //Find the camera in the scene & attach it to the player
@@ -124,6 +124,8 @@ public class PlayerController : MonoBehaviour
                 theInventory.AddItem(inventoryItem);
                 if (inventoryItem != null)
                 {
+                    FMODUnity.RuntimeManager.AttachInstanceToGameObject(pickup, GetComponent<Transform>(), GetComponent<Rigidbody>());
+                    pickup.start();
                     inventoryItem.OnPickUp();
                 }
                 theHud.CloseMessagePanel();
@@ -131,8 +133,6 @@ public class PlayerController : MonoBehaviour
                 if (myInteractableItem != null)
                 {
                     myInteractableItem.OnInteract();
-                    //  FMODUnity.RuntimeManager.AttachInstanceToGameObject(pickup, GetComponent<Transform>(), GetComponent<Rigidbody>());
-                    //   pickup.start();
                 }
 
                 //focus on an object
@@ -262,6 +262,7 @@ public class PlayerController : MonoBehaviour
                 InventoryItemBase inventoryItem = myInteractableItem as InventoryItemBase;
                 theInventory.AddItem(inventoryItem);
                 inventoryItem.OnPickUp();
+                
 
 
 
