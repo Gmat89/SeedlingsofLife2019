@@ -8578,6 +8578,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1142245259}
     m_Modifications:
+    - target: {fileID: 1892397521627035358, guid: 6d25bebef6bc80a4da66185f6eb66ca1,
+        type: 3}
+      propertyPath: m_Name
+      value: GrassClump
+      objectReference: {fileID: 0}
     - target: {fileID: 1892397521627458302, guid: 6d25bebef6bc80a4da66185f6eb66ca1,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -8632,11 +8637,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1892397521627035358, guid: 6d25bebef6bc80a4da66185f6eb66ca1,
-        type: 3}
-      propertyPath: m_Name
-      value: GrassClump
       objectReference: {fileID: 0}
     - target: {fileID: 1892397521625032720, guid: 6d25bebef6bc80a4da66185f6eb66ca1,
         type: 3}
